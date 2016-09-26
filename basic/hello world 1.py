@@ -1,6 +1,6 @@
 # Hello World 1
 
-print("Hello World")
-print("What is your name?")
-name=input()
-print("Glad to meet you", name)
+name = input("What's your name? ")
+print("Nice to meet you " + name + "!")
+age = input("Your age? ")
+print("So, you are are already " + str(age) + " years old, " + name + "!")
