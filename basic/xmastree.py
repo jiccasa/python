@@ -20,7 +20,7 @@ def xmastree_line(spaces,symbols):
 
 #Main
 
-height_inp=input("How tall would you like the Xmastree to be: ")
+height_inp=int(input("How tall would you like the Xmastree to be: "))
 
 
 xmastree(height_inp)
